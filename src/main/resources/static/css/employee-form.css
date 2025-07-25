@@ -1,0 +1,79 @@
+/* Base styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Container styling */
+.container {
+    max-width: 600px;
+    margin: 3rem auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Form heading */
+h4, .h4 {
+    color: #1e3a8a;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #1e3a8a;
+    outline: none;
+}
+
+/* Save button */
+button[type="submit"] {
+    background-color: #1e3a8a;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #374fc4;
+}
+
+/* Back link */
+a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #1e3a8a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Horizontal rule styling */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #d1d5db;
+    margin: 1.5rem 0;
+}
